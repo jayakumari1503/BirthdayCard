@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/baloon2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="On this Special day ..."
+            android:textSize="20sp"
+            android:fontFamily="@font/aguafina_script"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="175dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:fontFamily="@font/aguafina_script"
+            android:text="As you celebrate your  𝘽𝙞𝙧𝙩𝙝𝙙𝙖𝙮 ...."
+            android:textSize="25dp" />
+    </LinearLayout>
+
+
+    <TextView
+    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_on_primary"
+        android:text="  🎀 🎀 🎀 🎀 🎀 🎀 🎀 🎀 🎀 🎀 🎀 🎀 🎀 🎀 🎀 🎀 🎀"/>
+
+
+    <LinearLayout
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="@drawable/light"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:fontFamily="@font/delius_swash_caps"
+            android:text="Here's wishing for a whole lot of sweet surprises to come your way and always!!!"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Happy Birthday"
+            android:fontFamily="@font/aguafina_script"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:gravity="center_horizontal|center_vertical"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:fontFamily="@font/delius_swash_caps"
+            android:text="Wishing you a birthday as bright as your smile......"
+            android:textSize="20sp" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/cake"
+            android:layout_gravity="center_horizontal|center_vertical" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
